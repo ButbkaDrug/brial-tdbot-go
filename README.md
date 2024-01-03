@@ -1,49 +1,24 @@
-# Project brial-bot-go
+# Brial TDbot Go
+![Brial Bot Logo](https://butbkadrug.github.io/brial_bot.jpeg)
 
-One Paragraph of project description goes here
+Brial is a Telegram chatbot written in Go that converts incoming text messages into Brial and vice versa. It preserves unknown characters(as well as numbers) in their original places. This is one of my old projects and one of my first ventures into programming.
 
-## Getting Started
+## Features
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+- **Text to Brial Conversion:** Send a text message to Brial TDbot Go, and watch as it transforms your words into the intriguing Brial code, adding a playful twist to your conversations.
 
-## MakeFile
+- **Brial to Text Decoding:** Receive Brial-coded messages and easily decode them back into plain text.
 
-run all make commands with clean tests
-```bash
-make all build
-```
+- **Unknown Characters:** Brial bot ensures that unknown characters remain in their original positions during the conversion process, preserving the integrity of your messages. It supports Cyrilic and Latin letter, mixing them into one message not adviced))
 
-build the application
-```bash
-make build
-```
+## How to Use
 
-run the application
-```bash
-make run
-```
+1. Start a chat with Brial TDbot Go on Telegram.
 
-Create DB container
-```bash
-make docker-run
-```
+2. Send a text message to Brial TDbot Go to convert it into Brial.
 
-Shutdown DB container
-```bash
-make docker-down
-```
+3. Receive Brial-coded messages and decode them back into plain text.
 
-live reload the application
-```bash
-make watch
-```
+4. Enjoy!
 
-run the test suite
-```bash
-make test
-```
-
-clean up binary from the last build
-```bash
-make clean
-```
+[ Telegram Link ](https://t.me/brial_bot)
